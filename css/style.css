@@ -4,14 +4,11 @@ body {
 a {
     transition: all .3s linear;
 }
-.grey-header-line {
-    border-bottom: 2px solid rgba(122, 122, 122, 0.25);
-    padding: 20px 0;
-}
 .header-flex {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 20px 0;
 }
 .header-contact-block {
     display: flex;
@@ -38,11 +35,39 @@ a {
     color: #f60;
     text-decoration: none;
 }
+.navbar {
+    min-height: auto;
+    padding: 10px 0px;
+    border: none;
+    border-radius: 0;
+}
+.navbar-nav {
+    display: flex;
+    width: 100%;
+}
+.navbar-nav > li {
+    flex-grow: 1;
+    text-align: center;
+}
+.navbar-nav > li > a {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+.navbar-default .navbar-nav > li > a {
+    color: #000;
+}
+.navbar-default .navbar-nav > li > a:hover {
+    color: #f60;
+}
+.navbar-default {
+    background-color: rgba(122, 122, 122, 0.25);
+    border-radius: 4px;
+}
 .owl-prev {
     position: absolute;
     bottom: 0;
     top: 0;
-    left: -2%;
+    left: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -51,7 +76,7 @@ a {
     position: absolute;
     bottom: 0;
     top: 0;
-    right: -2%;
+    right: 3%;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -59,4 +84,47 @@ a {
 .chevron-background {
     font-size: 55px;
     color: #f60;
+}
+.owl-item {
+    position: relative;
+}
+.owl-absolut-block {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    top: 20%;
+}
+.owl-feedback-form {
+    text-align: center;
+    border: 2px solid #f60;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 4px;
+}
+.owl-feedback-form input {
+    display: block;
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 5px 10px;
+    border: 1px solid rgba(122, 122, 122, 0.25);
+    border-radius: 2px;
+}
+.owl-feedback-form a {
+    background-color: #f60;
+    padding: 10px;
+    color: #fff;
+    border: 2px solid #f60;
+    border-radius: 4px;
+    display: block;
+}
+.owl-feedback-form a:hover {
+    color: #f60;
+    background-color: #fff;
+    text-decoration: none;
+}
+.owl-absolut-slogan {
+    font-size: 30px;
+    color: #fff;
 }
