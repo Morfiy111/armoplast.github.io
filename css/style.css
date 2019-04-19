@@ -111,6 +111,9 @@ a {
     border: 1px solid rgba(122, 122, 122, 0.25);
     border-radius: 2px;
 }
+.owl-feedback-form input:focus {
+    outline: 2px solid #f60;
+}
 .owl-feedback-form a {
     background-color: #f60;
     padding: 10px;
@@ -127,4 +130,38 @@ a {
 .owl-absolut-slogan {
     font-size: 30px;
     color: #fff;
+}
+.first-page-advantages {
+    display: flex;
+    justify-content: space-between;
+    margin: 40px 0;
+    background-color: #f5f5f9;
+    padding: 30px;
+}
+.first-page-advantages-item {
+    width: 23.5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 30px 20px;
+    background-color: #fff;
+    position: relative;
+    border-radius: 4px;
+}
+.first-page-advantages-icon {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f9;
+    border-radius: 50%;
+    position: absolute;
+    top: -30px;
+    color: #f60;
+    font-size: 30px;
+}
+.first-page-advantages-desc {
+    text-align: center;
+    font-size: 16px;
 }
