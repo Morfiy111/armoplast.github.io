@@ -4,6 +4,9 @@ body {
 a {
     transition: all .3s linear;
 }
+h1, h2, h3 {
+    text-align: center;
+}
 .header-flex {
     display: flex;
     justify-content: space-between;
