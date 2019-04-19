@@ -1,7 +1,62 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+a {
+    transition: all .3s linear;
+}
 .grey-header-line {
     border-bottom: 2px solid rgba(122, 122, 122, 0.25);
     padding: 20px 0;
+}
+.header-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header-contact-block {
+    display: flex;
+    align-items: center;
+}
+.header-tel-block a {
+    font-size: 22px;
+    color: #000;
+    text-decoration: none;
+}
+.header-tel-block a:hover {
+    color: #f60;
+}
+.header-button-block a {
+    padding: 10px 20px;
+    background-color: #f60;
+    border-radius: 4px;
+    color: #fff;
+    margin-left: 15px;
+    border: 2px solid #f60;
+}
+.header-button-block a:hover {
+    background-color: #fff;
+    color: #f60;
+    text-decoration: none;
+}
+.owl-prev {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    left: -2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.owl-next {
+    position: absolute;
+    bottom: 0;
+    top: 0;
+    right: -2%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.chevron-background {
+    font-size: 55px;
+    color: #f60;
 }
