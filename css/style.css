@@ -268,6 +268,34 @@ button.close {
     text-align: center;
     margin-top: 30px;
 }
+@media(max-width: 1200px) {
+    .owl-absolut-block {
+        top: 3%;
+    }
+}
+@media(max-width: 1066px) {
+    .owl-absolut-block {
+        top: 0;
+    }
+    .owl-absolut-block .owl-feedback-form {
+        padding: 14px;
+    }
+}
+@media(max-width: 991px) {
+    .owl-absolut-block {
+        display: none;
+    }
+    .first-page-advantages {
+        flex-wrap: wrap;
+    }
+    .first-page-advantages-item {
+        width: 46%;
+        margin-bottom: 30px;
+    }
+    .catalog-item {
+        width: 48%;
+    }
+}
 @media (max-width: 767px) {
     .navbar {
         min-height: auto;
@@ -294,5 +322,38 @@ button.close {
         margin: 0;
         flex-direction: column;
         align-items: flex-start;
+    }
+}
+@media(max-width: 600px) {
+    .header-flex {
+        flex-wrap: wrap;
+    }
+    .header-tel-block a {
+        font-size: 16px;
+    }
+    .kmr-flex-block {
+        flex-wrap: wrap;
+        align-items: flex-start;
+    }
+    .kmr-arrow-block {
+        display: none;
+    }
+    .kmr-block-item {
+        width: 48%;
+    }
+    .kmr-block-item {
+        margin-bottom: 30px;
+    }
+    .footer-flex {
+        flex-wrap: wrap;
+    }
+    .footer-links {
+        width: 100%;
+    }
+    .catalog-item {
+        width: 100%;
+    }
+    .first-page-advantages-item {
+        width: 100%;
     }
 }
