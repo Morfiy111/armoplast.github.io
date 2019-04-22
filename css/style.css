@@ -21,6 +21,7 @@ h1, h2, h3 {
     font-size: 22px;
     color: #000;
     text-decoration: none;
+    display: block;
 }
 .header-tel-block a:hover {
     color: #f60;
@@ -209,6 +210,63 @@ button.close {
 }
 .title-page {
     margin-bottom: 40px;
+}
+.kmr-block {
+    background-color: #f5f5f9;
+    padding: 20px 0 30px 0;
+}
+.kmr-block-item {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.kmr-flex-block-number {
+    border: 6px solid #f60;
+    text-align: center;
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 40px;
+}
+.kmr-flex-block-desc {
+    margin-top: 15px;
+    text-align: center;
+}
+.kmr-flex-block {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.kmr-arrow-block i {
+    font-size: 40px;
+    color: #f60;
+}
+.kmr-block h2 {
+    margin-bottom: 20px;
+}
+.footer-page {
+    background-color: #f5f5f9;
+    padding: 30px 0;
+}
+.footer-flex {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-links a {
+    display: block;
+    color: #000;
+    text-decoration: none;
+}
+.footer-links a:hover {
+    color: #f60;
+}
+.footer-copyright {
+    text-align: center;
+    margin-top: 30px;
 }
 @media (max-width: 767px) {
     .navbar {
