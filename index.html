@@ -69,10 +69,8 @@
                     <ul class="nav navbar-nav">
                         <li><a href="#product">Продукция</a></li>
                         <li><a href="#advantage">Преимущества</a></li>
-                        <li><a href="#why">Почему мы</a></li>
+                        <li><a href="#map">Как нас найти</a></li>
                         <li><a href="#wework">Как мы работаем</a></li>
-                        <li><a href="#comment">Отзывы</a></li>
-                        <li><a href="#order">Заказать звонок</a></li>
                     </ul>
                 </div>
             </nav>
@@ -341,7 +339,7 @@
 </div>
 <div class="kmr-block">
     <div class="container">
-        <h2>Как мы работаем</h2>
+        <h2 name="wework" id="wework" class="anchor">Как мы работаем</h2>
         <div class="kmr-flex-block">
             <div class="kmr-block-item">
                 <div class="kmr-flex-block-number">
@@ -388,6 +386,7 @@
     </div>
 </div>
 <div class="map-block">
+    <h2 name="map" id="map" class="anchor">Как нас найти</h2>
     <script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Af337204b31769ed0921d425b28cb39e5dc9a963e9b925b413ca7fbcc7c914ef8&amp;width=100%25&amp;height=450&amp;lang=ru_RU&amp;scroll=true"></script>
 </div>
 <footer class="footer-page">
@@ -399,12 +398,30 @@
             <div class="footer-links">
                 <a href="#product">Продукция</a>
                 <a href="#advantage">Преимущества</a>
-                <a href="#why">Почему мы</a>
             </div>
             <div class="footer-links">
                 <a href="#wework">Как мы работаем</a>
-                <a href="#comment">Отзывы</a>
-                <a href="#order">Заказать звонок</a>
+                <a href="#map">Как нас найти</a>
+                <a href="#order" data-toggle="modal" data-target="#footerModal">Написать нам</a>
+                <div class="modal fade" id="footerModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <button type="button" class="close" data-dismiss="modal" aria-label="Закрыть">
+                                <span aria-hidden="true">×</span>
+                            </button>
+                            <div class="modal-body">
+                                <div class="owl-feedback-form">
+                                    <h3>Рассчитать стоимость</h3>
+                                    <p>Мы поможем вам с расчётом</p>
+                                    <input type="text" placeholder="Ваше имя">
+                                    <input type="text" placeholder="Телефон">
+                                    <input type="text" placeholder="email">
+                                    <a href="#">Отправить заявку</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
             <div class="footer-links">
                 <a href="tel:88001112233">8 (919) 216-60-00</a>

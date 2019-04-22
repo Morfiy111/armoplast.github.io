@@ -271,6 +271,9 @@ button.close {
 .header-logo img, .footer-logo img {
     width: 202px;
 }
+.map-block h2 {
+    margin: 40px 0;
+}
 @media(max-width: 1200px) {
     .owl-absolut-block {
         top: 3%;
