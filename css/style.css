@@ -274,6 +274,9 @@ button.close {
 .map-block h2 {
     margin: 40px 0;
 }
+.footer-links .owl-feedback-form a {
+    color: #fff;
+}
 @media(max-width: 1200px) {
     .owl-absolut-block {
         top: 3%;
