@@ -269,7 +269,7 @@ button.close {
     margin-top: 30px;
 }
 .header-logo img, .footer-logo img {
-    width: 202px;
+    width: 317px;
 }
 .map-block h2 {
     margin: 40px 0;
@@ -332,14 +332,21 @@ button.close {
         flex-direction: column;
         align-items: flex-start;
     }
-}
-@media(max-width: 600px) {
+
+    .footer-flex {
+        flex-wrap: wrap;
+    }
+    .footer-links {
+        width: 100%;
+    }
     .header-flex {
         flex-wrap: wrap;
     }
     .header-tel-block a {
         font-size: 16px;
     }
+}
+@media(max-width: 600px) {
     .kmr-flex-block {
         flex-wrap: wrap;
         align-items: flex-start;
@@ -353,16 +360,13 @@ button.close {
     .kmr-block-item {
         margin-bottom: 30px;
     }
-    .footer-flex {
-        flex-wrap: wrap;
-    }
-    .footer-links {
-        width: 100%;
-    }
     .catalog-item {
         width: 100%;
     }
     .first-page-advantages-item {
         width: 100%;
+    }
+    .header-logo img, .footer-logo img {
+        width: 296px;
     }
 }
